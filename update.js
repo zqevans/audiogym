@@ -7,7 +7,7 @@ module.exports = {
   }, {
     method: "shell.run",
     params: {
-      path: "sd-scripts",
+      path: "stable-audio-tools",
       message: "git pull"
     }
   }, {
@@ -18,10 +18,10 @@ module.exports = {
   }, {
     method: "shell.run",
     params: {
-      path: "sd-scripts",
+      path: "stable-audio-tools",
       venv: "../env",
       message: [
-        "uv pip install -r requirements.txt",
+        "pip install .",
       ]
     }
   }, {
@@ -29,7 +29,7 @@ module.exports = {
     params: {
       venv: "env",
       message: [
-        "pip uninstall -y diffusers[torch] torch torchaudio torchvision",
+        "pip uninstall -y torch torchaudio torchvision",
         "uv pip install -r requirements.txt",
       ]
     }

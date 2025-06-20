@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
-  version: "3.2",
-  title: "fluxgym",
-  description: "[NVIDIA Only] Dead simple web UI for training FLUX LoRA with LOW VRAM support (From 12GB)",
+  version: "0.1.0",
+  title: "audiogym",
+  description: "[NVIDIA Only] Simple web UI for training Stable Audio Open",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("env")

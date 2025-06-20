@@ -2,7 +2,7 @@ module.exports = {
   run: [{
     method: "fs.rm",
     params: {
-      path: "sd-scripts"
+      path: "stable-audio-tools"
     }
   }, {
     method: "fs.rm",

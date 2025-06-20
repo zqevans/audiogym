@@ -1,0 +1,7 @@
+wandb/
+.gradio/
+env/
+*.wav
+models/
+outputs/
+stable-audio-tools/

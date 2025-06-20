@@ -6,22 +6,22 @@
 #   license_name: <follow the other examples. only needed for dev inherited models>
 #   license_link: <follow the other examples. only needed for dev inherited models>
 #   file: <the file name within the huggingface repo>
-flux-dev:
-    repo: cocktailpeanut/xulf-dev
-    base: black-forest-labs/FLUX.1-dev
-    license: other
-    license_name: flux-1-dev-non-commercial-license
-    license_link: https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/LICENSE.md
-    file: flux1-dev.sft
-flux-schnell:
-    repo: black-forest-labs/FLUX.1-schnell
-    base: black-forest-labs/FLUX.1-schnell
-    license: apache-2.0
-    file: flux1-schnell.safetensors
-bdsqlsz/flux1-dev2pro-single:
-    repo: bdsqlsz/flux1-dev2pro-single
-    base: black-forest-labs/FLUX.1-dev
-    license: other
-    license_name: flux-1-dev-non-commercial-license
-    license_link: https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/LICENSE.md
-    file: flux1-dev2pro.safetensors
+diffusion:
+    stable-audio-open-small:
+        repo: stabilityai/stable-audio-open-small
+        base: stabilityai/stable-audio-open-small
+        license: other
+        license_name: stability-ai-community
+        license_link: https://huggingface.co/stabilityai/stable-audio-open-small/blob/main/LICENSE
+        file: base_model.ckpt
+        config_file: base_model_config.json
+        autoencoder: stable-audio-open        
+
+autoencoder:
+    stable-audio-open:
+        repo: stabilityai/stable-audio-open-1.0
+        license: other
+        license_name: stability-ai-community
+        license_link: https://huggingface.co/stabilityai/stable-audio-open-1.0/blob/main/LICENSE
+        file: vae_model.ckpt
+        config_file: vae_model_config.json
