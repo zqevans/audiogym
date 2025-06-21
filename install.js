@@ -6,7 +6,7 @@ module.exports = {
         venv: "env",
         message: [
           "git config --global --add safe.directory '*'",
-          "git clone https://github.com/stabilityai/stable-audio-tools"
+          "git clone git@github.com:Stability-AI/stable-audio-tools.git"
         ]
       }
     },
